@@ -37,7 +37,7 @@ group :development, :test do
 	gem 'pry'
 	gem 'pry-nav'
 	gem 'pry-rails', '~> 0.3.2'
-
+	gem 'rspec-rails'
 end
 
 group :development do
@@ -55,7 +55,6 @@ group :test do
 	gem 'database_cleaner'
 	gem 'factory_girl_rails'
 	gem 'faker' 
-	gem 'rspec-rails'
 	gem 'simple_bdd'
 	gem 'shoulda-matchers'
 end
