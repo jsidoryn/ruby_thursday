@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 gem 'pg'
+gem 'devise'
 
 group :development, :test do
 	gem 'pry'
