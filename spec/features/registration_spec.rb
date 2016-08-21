@@ -9,8 +9,8 @@ feature "member registers for site" do
 	end
 
 	def fill_in_registration_fields	
-		fill_in "member[name]", with: FFaker::Name.name
-		fill_in "member[email]", with: FFaker::Internet.email
+		fill_in "member[name]", with: Faker::Name.name
+		fill_in "member[email]", with: Faker::Internet.email
 		fill_in "member[password]", with: Devise.friendly_token.first(8)
 		click_button "Sign up"
 	end
